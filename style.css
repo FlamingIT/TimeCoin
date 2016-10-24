@@ -1,0 +1,293 @@
+.bg500 {
+	background-image: url('4.png');
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	min-height: 500px;
+	background-attachment: fixed;
+	z-index: 1;
+}
+
+.bg300 {
+	background-image: url('4.png');
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	min-height: 200px;
+	background-attachment: fixed;
+	z-index: 1;
+}
+
+#bg1 {
+	background-image: url('1.png');
+}
+
+#bg2 {
+	background-image: url('2.png');
+}
+
+#bg3 {
+	background-image: url('3.png');
+}
+
+.maintitle {
+	font-family: 'Arima Madurai', sans-serif;
+	font-size: 60px;
+	color: white;
+	z-index: 2;
+}
+
+.title {
+	font-family: 'Arima Madurai', sans-serif;
+	font-size: 50px;
+	color: white;
+	opacity: 0.8;
+	display: table-cell;
+  vertical-align: middle;
+	font-weight: bold;
+	z-index: 2;
+}
+
+#title300 {
+	height: 200px;
+}
+
+#title500 {
+	height: 500px;
+}
+
+.form {
+	margin: 0 auto;
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+
+#formmargbot {
+	margin-bottom: 10%;
+}
+
+.formwid {
+	width:300px;
+}
+
+#reg {
+	width: 500px;
+}
+
+#log {
+	width: 300px;
+}
+
+#text {
+	font-family: 'Arima Madurai', sans-serif;
+	font-size: 20px;
+}
+
+#text2 {
+	font-family: 'Arima Madurai', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#text3 {
+	margin: 4%;
+	margin-left: 20%;
+	margin-right:20%;
+	font-family: 'Arima Madurai', sans-serif;
+	font-size: 20px;
+	text-align:justify;
+}
+
+#text4 {
+	margin: 4%;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-family: 'Arima Madurai', sans-serif;
+	font-size: 20px;
+	text-align:justify;
+}
+
+#lista {
+	font-size: 15px;
+}
+
+textarea {
+	float: right;
+	width: 493px;
+	height: 100px;
+	border: 1px solid;
+	text-align: center;
+	margin-bottom: 4%;
+}
+
+select#reg {
+	float: right;
+	width: 303px;
+	height: 20px;
+	border: 1px solid;
+	text-align: center;
+}
+
+select#search {
+	width: 300px;
+	height: 30px;
+	border: 2px solid;
+}
+	
+#userd {
+	margin-left: 30%;
+	margin-right: 30%;
+	font-family: 'Arima Madurai', sans-serif;
+	font-size: 20px;
+	text-align: justify;	
+}
+
+input {
+	float: right;
+}
+	
+input[type="submit"], input[type="reset"] {
+	font-family: 'Arima Madurai', sans-serif;
+	background-color: #C3D4F0;
+	float: right;
+	width: 202px;
+	height: 30px;
+	font-weight: bold;
+	border-radius: 15px;
+	border: 1px solid;
+}
+
+input[type="submit"]:hover {
+	background-color: #D5E3FA;
+	width: 205px;
+	height: 35px;
+	border-radius: 18px;
+}
+
+input[type="reset"]:hover {
+	background-color: #D5E3FA;
+	width: 205px;
+	height: 35px;
+	border-radius: 18px;
+}
+
+input[type="button"] {
+	font-family: 'Arima Madurai', sans-serif;
+	background-color: #C3D4F0;
+	width: 200px;
+	height: 30px;
+	font-weight: bold;
+	border-radius: 15px;
+	border: 1px solid;
+}
+
+input[type="button"]:hover {
+	background-color: #D5E3FA;
+	width: 205px;
+	height: 35px;
+	border-radius: 18px;
+}
+
+#wid201 {
+	width:206px;
+}
+
+input#log {
+	float: right;
+	width: 200px;
+	height: 20px;
+	border: 1px solid;
+	text-align: center;
+	margin-bottom: 10%;
+	margin-left: 2%;
+}
+
+input#wyslij {
+	float: left;
+	margin: 0 auto;
+	width: 100px;
+}
+
+input#reg {
+	width: 300px;
+	height: 20px;
+	border: 1px solid;
+	text-align: center;
+	float: right;
+	margin-left: 2%;
+}
+
+input#left {
+	float: left;
+}
+		
+input[type="submit"]#chlep {
+	width: 16%;
+	margin-right: 42%;
+}
+
+.oml {
+	float: right;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	width: 46%;
+	height: 100px;
+	text-align: left;
+}
+
+.omr {
+	float: left;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	width: 46%;
+	height: 100px;
+	text-align: right;
+}
+
+table {
+	border: 1px solid;
+	
+}
+
+td {
+	border: 1px solid;
+	width: 15%;
+	padding: 5px;
+}
+
+ol {
+	font-family: 'Arima Madurai', sans-serif;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+ol > li {
+	float: left;
+	width: 200px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+ol a {
+	display: block;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 0px 5px;
+}
+
+ol > li > a:hover {
+	color: #000000;
+}
+
+ol > li:hover {
+	background-color: #FFFFFF;
+}	
